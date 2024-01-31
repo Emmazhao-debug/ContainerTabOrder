@@ -2,8 +2,43 @@
   "IntegrateWithOtherApplication": {
     "Password": "P(@6NYJ6@0z1"
   },
+  "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
   "WebSitePort": 36328,
   "UserServicePort": 29051,
-  "StartDateFiscalYear": 4
+  "NotAllowQueryDatabaseByJsApi": false,
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "KeepMasterPage": false,
+  "NameConflictPolicy": 1,
+  "PageLoadingMode": 2,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "en",
+        "Description": "Built-in English language, cannot be deleted",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      },
+      {
+        "Name": "ja",
+        "IsDefault": true,
+        "Description": "Built-in Japanese language, cannot be deleted",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ja",
+        "FontFamily": "Meiryo UI"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
 }

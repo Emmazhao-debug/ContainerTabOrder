@@ -194,33 +194,33 @@
     "2,13,2,9",
     "2,24,2,9"
   ],
-  "BackgroundPictures": [
-    {
-      "FitToBrowserWidth": true,
-      "FitToBrowserHeight": true,
-      "Repeat": true,
-      "DisplayName": "BackgroundPicture1",
-      "ForguncyPictureName": "PCMasterBackground",
-      "Stretch": 2,
-      "ForguncyPictureSourceType": 2,
-      "Name": "515397b3-ef9b-4f31-a45b-aa3c3ce18665",
-      "Size": "200,210"
-    },
-    {
-      "DisplayName": "BackgroundPicture2",
-      "ForguncyPictureName": "PCMasterBanner",
-      "Stretch": 3,
-      "ForguncyPictureSourceType": 2,
-      "Name": "d7fb6181-e71a-4167-8b3d-6a2865f62b2a",
-      "Size": "1280,100"
-    }
-  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
     "PageLoadedCommandList": []
   },
   "PrintInfo": {
-    "Margin": {},
-    "PaperSize": {}
-  }
-}//3qYYWCRmxlwNbU7LsCWsE77ZBBJPhf3t1X/APCNy7MfvXI4+25rb8shmoxU0wbaGIkiw0h5C1QLufMDX2JuXSCEwnE0zV+BCL/dDeRB3Zw8YOvl8IuBh73zOSxygBBV4pjguF2KV1ABywzflzpzxOazupRDQh6Gb/EgFBbMFf7TkPTTrj7uKg2r4OA9SioUxFXJcl61LVmlPIfEX20J+e9RsBqHX9WGvubqQp98Yx3cmKSDFetAiX2XllPHyFcwpjWmFWqGU4CVTvgaFkWL/mHAzoSVGBIw3FtJRc+K25Gat4ZTh0QWrEY51uOIxmX2qXPvzVkD6DMtjry51hS/xtzbjqWERmtdoJx+sWT+DkCZ/1dUZZkrllObzs8j0DcIYM0hZX08Pb6Fl1KfRgWoB7yn5qRpxNuUlwvODyjfoVqmhw5K5OHCD7wqN+jgGkV9wNp1e88ZW8j/P/prKnZa9CYr+NiQFDmjvQbIdU07VcjUXQDkxbP5RL4/qwHmDuwWeh6Jq3rw3Sq1mfBehJUenYurNUI/ITT6RIJ92RNj3UM1O+aeELUy4Pd29194dODLYYDo5SaviKdvrgnH/J2Ieccak30QUNHW4GxqOlpWg+Qo1tiGMAmc9aqRSH61n1sG/bARVDtRHiEiWr+UJ8RPRRTbKcuUkbhtbamNcPtoa/arAHJPdK4KOG0ULcriaONbe7h+JQi0esQAS8mmd5nD/N8/dCtcbHz+VafhwORrqZyAVbPCBYzeJVjWHcP6V+wj0zHNpqhP3+jMhzanbp98rrGIlQlzJou9TISqw/9OVK4ma/C8bcN0a23Y/Fp6AtEXSOmKjYRvISsU0T/gE+e01+RzsEbAPcf4rNFOPVC9rV49EyZZKjxwFC+su8Rp6SQ5jtAwOP+JtLxtuDr5FnTu32Q==|920
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "Name": "515397b3-ef9b-4f31-a45b-aa3c3ce18665",
+      "DisplayName": "BackgroundPicture1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 2,
+      "Size": "200,210"
+    },
+    {
+      "Name": "d7fb6181-e71a-4167-8b3d-6a2865f62b2a",
+      "DisplayName": "BackgroundPicture2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1280,100"
+    }
+  ]
+}//w8EVL3XK3Mw2JFKXj9Lxu3dTzE9tnaYYwXCD3eNePWGMzYP9XGrQcQEZKt4YFY3gfbvAw51kH8WvgKHZXkp9zKzK7V3f2nLPKSwktux/qYcqObQQ1M/VfLQoPR4iBNiKy3vjRltg64Ej4F+JmUHED/32iOpeLvwfhawC36W5sCJz3aoq9b03oZKJ5RCIXqOFGCtkv4fGHbn6FgccNKr7zz+to+t7r9R8CqL8q38/QZXEY8JTZxZOPa8r2HUHWWw5FXxcZ54vXWZiajDGQ9qKn9xSjycccJwh3Kccm22ckTn04UbopLrrN231NtstpNWXzPc8chsKaMVemed9mayhgWvkpExjK6fHg+LA9H/BMVNyuqxCiweCqBQibKcLW6xNixkKMjIX32k+gqG9sBf8CfkeuMrn88jk332A5KMqTFkAEKsxJWRA4HL1LtDQVRT2zevCTXA8l6QmREUPqdmezU1pkiDA303MdR2CfT6NjIRU2SfzjWlADO3bGyEev+pPaKrOT6BHqpsIYDRo5s0d2ZyXHysMC6jVYfd3+hQv+KNlmPqbYKKukDAK7v6XjPkTeUYANizYtY0rt7BVD4rNgntrVimjkwtaba/3LiadPtaLWHGcOaMpmtK4C1AnzmpK+Ikcuc2Y1iO6Q+0lJooer2lYz986tRV27fkeGHVqg5bP5mD/izCwU2NwrteKP4rYvx8O6ynLiGhpIyaX5lBUS+oWuVDJ8Q3o/X8rWKcF1J361tjcRHbR8ZqQc/dNv/sRq8pL6wOQtBaQ+g1Zl9SRs83UUEikR6DDAIYR6MmDCz3eeIWuLVbvOI7C0KSczu+NJarcW1HlxeJf4Csa2XU7cKS4ZeBE5rUyz6VD6mKK1dHTCd9oNE0d391uRxo/B+I0OZtRCP3b1zUMOMzCwFz66A==|920
