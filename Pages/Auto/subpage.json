@@ -1,0 +1,139 @@
+{
+  "Rows": {
+    "Count": 20
+  },
+  "Cols": {
+    "Count": 27
+  },
+  "Values": {
+    "1,2": "button",
+    "4,14": "google.com",
+    "10,14": "Administrator"
+  },
+  "TimeValues": {
+    "7,14": "13:55:00"
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "button",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        },
+        "DateFormat": "ggg ee年MM月dd日",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsSelectAllOnFocus": true
+      }
+    },
+    "4,2": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "NoneItemText": "<None>",
+        "Style": 1,
+        "LayoutMode": 1,
+        "Items": [
+          {
+            "Value": "Forguncy",
+            "DisplayValue": "Forguncy"
+          },
+          {
+            "Value": "Wyn",
+            "DisplayValue": "Wyn"
+          },
+          {
+            "Value": "ActiveReport",
+            "DisplayValue": "ActiveReport"
+          },
+          {
+            "Value": "SpreadJS",
+            "DisplayValue": "SpreadJS"
+          }
+        ],
+        "AddOtherItem": true
+      }
+    },
+    "4,14": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://www.google.com",
+            "PassValues": []
+          }
+        ],
+        "Text": "google.com",
+        "ClickMode": 1
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": {
+          "$type": "Forguncy.TimeObject, ServerDesignerCommon",
+          "Value": "13:55:00"
+        }
+      }
+    },
+    "10,14": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, ServerDesignerCommon",
+        "Columns": 7,
+        "IsSelectAllOnFocus": true,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": "Administrator"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0,
+        "HorizontalAlignment": 1,
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Blue",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "4,14": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,2,2,10",
+    "4,2,14,10",
+    "1,14,2,10",
+    "4,14,2,10",
+    "7,14,2,10",
+    "10,14,2,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//OBCT5WyEd9RQTgAaWDOh4QDMgcMo171grkxWxpgfrwV2BQB9wo42KLvc/dMn92jDAEZLuiq5SaFTPCp/XhBZ/xVlfFMwiM0x4jsC0tNWRhX6a22BmgGtbnNiN8VVS8dnGHwzhS0vKSttGcVkUUSXT0TgsvzU65Q1hB4w12/A5v0Y3T2ZvO6reVhmcPm5PlpL2rQjyTgpyoNnI/vGFHRoEiCHNxRplFJjbyvbjnpo4obstgpT7/n6ELm5Fry57CKCBAuZYO9I95wdrHXiagDAEMPedLH6nCpI4NyghbsaKQUfP25mNGu5KotMwqm2RoMGYahqnzDtZZCfdKgfhRQ+e2bWCHMDPB1VhpMf3K4caqgIa38cZ90cqyLPm4XaSU9Tfcv1ZLui8Ba9w0q23D0hD7iGuM2lvjVH54ANmicrBUnf/ylpqLFTpuBgzEJTqiP8i7Iz64d7m7Eft/CGIqByEP27S4PYIx4KJBrjPjlEooFF5qHJtUTl55Z+XmM/7V1QIN/edTH28OlH0a22/N7siTLoXmX364xHrU/o1gSW+VnwzQVHCuk02vVpwyjYdcbcmXjPhCh/ubDTMq+dVmmtvTDXIuvGjT+90rKdlvs24w7mb+xPTzkmPumjh6efB2bAgpCeHobhLWtgp2jbwlb/dd6QNt46wq/FClrhCodVFPOZ1GIrWePA8sIroEjcNz2gj70u2Ed7aWd1ygDqNNW7+sGn5tpNFcYhes8KxvtqGUpWvJOFrOBgkBt+97qOtV2esxfw3IEV6f72SuVyIQ/MLy7jbZzQJKjpjgSPKFdBUI9JdEL/3oGDxwyEQX7FcwrlqN3BC4mgtGRndA8fj7VXDqQytO1fDTiwmWypx/JPqwwdtfuQre6opbmmJISlgJ04NHyl8BuMNPa+SY3n9ZIveQ==|920

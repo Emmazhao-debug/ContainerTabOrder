@@ -1,0 +1,98 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 43.0
+        }
+      }
+    },
+    "Count": 40
+  },
+  "Cols": {
+    "Count": 33
+  },
+  "Values": {
+    "0,0": "*父页面和子页面都是manual的情况，顺序在V8上是:子页面(attachment)->父(number)->父（checkbox group)-->子(htmleditor)",
+    "2,1": 2,
+    "5,1": 3,
+    "5,2": "subpage1_manual",
+    "36,1": 1,
+    "36,2": 12000
+  },
+  "AttachInfos": {
+    "2,2": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "Items": [
+          {
+            "Value": "Item1",
+            "DisplayValue": "Item1"
+          },
+          {
+            "Value": "Item2",
+            "DisplayValue": "Item2"
+          },
+          {
+            "Value": "Item3",
+            "DisplayValue": "Item3"
+          }
+        ],
+        "AddOtherItem": true,
+        "TabIndex": 2
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.ContentContainerCellType, ServerDesignerCommon",
+        "PageName": "subpage1_manual"
+      }
+    },
+    "36,2": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CellDefaultValue": 12000,
+        "TabIndex": 1
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "RowStyles": {
+      "0": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "2,2,2,20",
+    "5,2,30,29",
+    "36,2,2,17",
+    "0,0,1,33"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//kLxSYvU60mqkNiYL364qsImaPTA2inNh+g61aGa1WVgAoA4i+ppRyHBmkRldND44IqZlU9z4cHHbv9di6svUcJH7fJbvIIlM8q8czBnHfUZUYPqf97dpcg/s4IvNSU9RR7djR6Z9YqWfNGnXp8ii3nSpx/S1dtCvZtkmAx1GvSVcoLI05JAbFIgjxL6uXq1X+Fog2J5mWrh1adAJijiePqqd0r4KuCvP3OGUAzEPO+0PYA4dgisiCyDfdSOfTZ25Csm8OKsaYMm9sQdF56QwA68w+ugjKn0ExF/VRlsE0thoCAcD1iUa7C8ClOiw32DogbjF+a8MzZmMR0IYXUsXqMFda8DefZepnJNCm11sumcftvLuo9lpwTwEkLKophdYNmewwBV+ZSgudRWvijgaU0v0PVvtZ7BwEKzMlgiSTI/Q0WDE12gE/GAJLEC0zcypx350obiwqrHf3BUG34WN2laCoH+CP2SX7QH83l4BQX4mYExeDze7y2xNKH2obMcyTofEzYq2YzV9MCvQHKDC80aSooXkm9UnbmFI82PRUQwnk58Za7u3FbVG5r0cTcrLgmzVC9RS5uoCCg9/Mp80Lq/oITUVKT3O6m+JZ9ZRgDTmJBb1FlM9JWtoMBbaqAE/hz9rh2cvlRcTAkPf2uuA+vLRMasHaEqHoAyX0GYKwJeb2/TMnug2MG0O1ftHMGYzdZa5JfdWyNtfq+rlvUOY1Kkbl7dYdDTKugaEzlQpDJ7AsJEv0nFX8OcRmOZpgrGiVcTUowoKP9F3RXtn13ADCZsTstQ81Y5nlaPU3PlIYpaSY04BCe+nnaU44cawksJcWIcSlsGQoUFXrKhD00CQGCbsB4YAIk9K31fghAZy87d54MsMmpqIcoDXnOAF8LFUYtEmgWA8X6NB8jZZF0wqtg==|920

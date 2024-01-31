@@ -1,0 +1,226 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "Count": 64
+  },
+  "Values": {
+    "2,13": "button",
+    "3,12": 3,
+    "3,23": 4
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_light.png"
+      }
+    },
+    "2,13": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "button",
+        "TemplateKey": "_RS_Outline_RoundCorner_Style2"
+      }
+    },
+    "2,24": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "CellDefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=TODAY()"
+        },
+        "DateFormat": "gg ee年MM月dd日",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "IsSelectAllOnFocus": true
+      }
+    },
+    "2,54": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Text": "Menu  1",
+            "IconPath": "Navigation/165_home_3.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "Menu 1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Menu  1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "Menu  2",
+            "IconPath": "Navigation/183_table_2.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "Menu  2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Menu 2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Text": "Menu 3",
+            "IconPath": "Chart/363_column_chart_2.svg",
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "Menu  3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Text": "Menu  3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.3333333333333,
+            "Height": 45.0,
+            "Width": 200.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Height": 32.0,
+            "Width": 200.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "9,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Foreground": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Accent 6 80",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,12": 0,
+      "3,23": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "1,1,5,10",
+    "9,0,27,64",
+    "2,54,3,10",
+    "7,0,2,64",
+    "2,13,2,9",
+    "2,24,2,9"
+  ],
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "DisplayName": "BackgroundPicture1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "Stretch": 2,
+      "ForguncyPictureSourceType": 2,
+      "Name": "515397b3-ef9b-4f31-a45b-aa3c3ce18665",
+      "Size": "200,210"
+    },
+    {
+      "DisplayName": "BackgroundPicture2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "Stretch": 3,
+      "ForguncyPictureSourceType": 2,
+      "Name": "d7fb6181-e71a-4167-8b3d-6a2865f62b2a",
+      "Size": "1280,100"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//3qYYWCRmxlwNbU7LsCWsE77ZBBJPhf3t1X/APCNy7MfvXI4+25rb8shmoxU0wbaGIkiw0h5C1QLufMDX2JuXSCEwnE0zV+BCL/dDeRB3Zw8YOvl8IuBh73zOSxygBBV4pjguF2KV1ABywzflzpzxOazupRDQh6Gb/EgFBbMFf7TkPTTrj7uKg2r4OA9SioUxFXJcl61LVmlPIfEX20J+e9RsBqHX9WGvubqQp98Yx3cmKSDFetAiX2XllPHyFcwpjWmFWqGU4CVTvgaFkWL/mHAzoSVGBIw3FtJRc+K25Gat4ZTh0QWrEY51uOIxmX2qXPvzVkD6DMtjry51hS/xtzbjqWERmtdoJx+sWT+DkCZ/1dUZZkrllObzs8j0DcIYM0hZX08Pb6Fl1KfRgWoB7yn5qRpxNuUlwvODyjfoVqmhw5K5OHCD7wqN+jgGkV9wNp1e88ZW8j/P/prKnZa9CYr+NiQFDmjvQbIdU07VcjUXQDkxbP5RL4/qwHmDuwWeh6Jq3rw3Sq1mfBehJUenYurNUI/ITT6RIJ92RNj3UM1O+aeELUy4Pd29194dODLYYDo5SaviKdvrgnH/J2Ieccak30QUNHW4GxqOlpWg+Qo1tiGMAmc9aqRSH61n1sG/bARVDtRHiEiWr+UJ8RPRRTbKcuUkbhtbamNcPtoa/arAHJPdK4KOG0ULcriaONbe7h+JQi0esQAS8mmd5nD/N8/dCtcbHz+VafhwORrqZyAVbPCBYzeJVjWHcP6V+wj0zHNpqhP3+jMhzanbp98rrGIlQlzJou9TISqw/9OVK4ma/C8bcN0a23Y/Fp6AtEXSOmKjYRvISsU0T/gE+e01+RzsEbAPcf4rNFOPVC9rV49EyZZKjxwFC+su8Rp6SQ5jtAwOP+JtLxtuDr5FnTu32Q==|920

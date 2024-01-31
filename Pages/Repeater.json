@@ -1,0 +1,236 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 29.0
+        }
+      }
+    },
+    "Count": 46
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Application/046_search_7.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 70"
+        },
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "WaterMark": "searching...",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+            "TargetTableName": "汽车企业信息",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                    "CompareType": 6,
+                    "ColumnBindingInfo": {
+                      "TableName": "汽车企业信息",
+                      "ColumnName": "企业"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=Repeater!C2"
+                    }
+                  },
+                  "Condition2": {
+                    "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                    "CompareType": 6,
+                    "ColumnBindingInfo": {
+                      "TableName": "汽车企业信息",
+                      "ColumnName": "联系人"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=Repeater!C2"
+                    }
+                  },
+                  "RelationType": 1
+                },
+                "Condition2": {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "汽车企业信息",
+                    "ColumnName": "电话"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=Repeater!C2"
+                  }
+                },
+                "RelationType": 1
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "汽车企业信息",
+                  "ColumnName": "地址"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=Repeater!C2"
+                }
+              },
+              "RelationType": 1
+            },
+            "Params": [
+              "=C2"
+            ],
+            "ID": "d1f5ef0ff969426b8123994e2fe91550"
+          }
+        ],
+        "TabIndex": 2
+      }
+    },
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.RepeaterCellType, ServerDesignerCommon",
+        "ListviewName": "Listview1",
+        "TemplatePageName": "8cdba47c0cab40f8a8b03bf886d3ca6",
+        "TemplateKey": "_RS_Selectable"
+      }
+    },
+    "3,25": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "汽车企业信息",
+        "RowIndex": 3,
+        "ColumnIndex": 25,
+        "ColumnCount": 33,
+        "RowCount": 14,
+        "ColumnOperation": 2,
+        "AllowGetFocus": false,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "Listview1",
+        "TopCondition": null,
+        "TabIndex": 1,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "4,25": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "ID"
+      },
+      "NameUsedInJavaScript": "ID"
+    },
+    "4,30": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "企业"
+      },
+      "NameUsedInJavaScript": "企业"
+    },
+    "4,36": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "联系人"
+      },
+      "NameUsedInJavaScript": "联系人"
+    },
+    "4,42": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "电话"
+      },
+      "NameUsedInJavaScript": "电话"
+    },
+    "4,49": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址"
+      },
+      "NameUsedInJavaScript": "地址"
+    },
+    "4,54": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注"
+      },
+      "NameUsedInJavaScript": "备注"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "HorizontalAlignment": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "3,2": 1,
+      "4,54": 2,
+      "4,55": 2,
+      "4,56": 2,
+      "4,57": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,2,35,20",
+    "4,25,1,5",
+    "4,30,1,6",
+    "4,36,1,6",
+    "4,42,1,7",
+    "4,49,1,5",
+    "4,54,1,4",
+    "5,25,12,33",
+    "1,2,1,21",
+    "3,25,1,5",
+    "3,30,1,6",
+    "3,36,1,6",
+    "3,42,1,7",
+    "3,49,1,5",
+    "3,54,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "EnableTabIndex": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//LgJydDdKxfXdFFlUZv0Xs46Hoh0SXjwJikCSOTLUc95Rltgk29EvqnzSADAX9nlJ/8370bQCdOfR5Y7UT748AdjhdSPVgyZo4G++0Z8Vhj2Mdgjsx6kVvPdKmBchXuW4BvNzAm//Z9Ux5gDfAjtiBHww2cVFIpUfLOLOE7B7NeYyD9F6V8KaJUqzulGg+qdrgbCqKM4tEWx1jQz4SFYWIA9AVYfkp8Fd6IGGkA9ZDgkijHEpmGWuCDad7dwegAAaDn7OFQ/OAGpxUErkaITKxPoymkys9/DOC4p1ON2/K+iHAW6G1ZR+8yR1cz0PjsMm3GUhgtYAOs373XxF35wMm38brA1AqVEz+5ggLJ3qLwlOr0dK77sULejK0sjsVJUQP04ASdU7uo6AeMtpBbhc9rSruxGQjl3yETOE4fofnCzbuBhSLa8IbCw3zhXbsccz5Bk04FDM2bVxRxEEMV+C+ShCbzm1hLzY/YcReD5mDMCXWLlVtEP1RDJvkB9iz+DC9LVdyPvRUeMs8v/5V9M10eQWFOYjonocfLVurdLNUoiQR0juiN2+nA7U4TZRqMoBZmNvoIUv2dEK90D2E+6/qJ9NhTRX2qSO+2qih9cwf6gK+9xvNIhysBOXj4WCd3Cy2GGBYtgPFmUqPspb9Dw5svJre2P4R+620VmJ6fIm8gzlMOeIX5DHmQl2Isy29nq3KM7v1SNvnmTIIpPpdDkDtwUWfNG2SbgDGvgVnlNd8i/a4pvTrd9/RywXTQUPuyXNueMG/fGWS/KOFGyj4MdKk/O5ZoV/QHAKHxcj754dM97htzK2EuITBumA/lPXKz714l2zomd0T+tKVd24xFuvGoFglySS1Lnp10YD8V3YYir6xpOsVnHDx5ZBBT0MoyGJDCG/dezwM4sfXQHUfljZvQ==|920
