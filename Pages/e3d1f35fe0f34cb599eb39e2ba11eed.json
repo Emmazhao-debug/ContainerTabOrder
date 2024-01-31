@@ -1,0 +1,101 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 10.0
+  },
+  "Cols": {
+    "Count": 17
+  },
+  "Values": {
+    "1,1": "名称：",
+    "3,1": "日期信息:"
+  },
+  "AttachInfos": {
+    "1,5": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "TemplateCellSource": "名称"
+    },
+    "3,5": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "TemplateCellSource": "生产日期"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "1,5": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
+    }
+  },
+  "Spans": [
+    "1,1,1,4",
+    "1,5,1,11",
+    "3,5,1,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "ContainerAndTabOrder"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//v/CbsI/ZcSKep9TBdqkqnnEWr27GjRXLMHV+8H9n6drOtRKc/CGwB3lJ1kpuI+0eA+1lpKb6tMX8Zmzr6MSW7G/9tSePsZDTjpfJTsMdxwf/Be8a0uGYh9Z4hS1iUjnm+kEjR6M9boQFYbFeY2kIQuh4lJtwDRkVS0JdyqjHmSm6qjVV3HKoZ2px07BnlzyFf4IdBO6zRZs3WjMTk3vslJ8HF7kbdym3x+OtL1boqvxFiD32kkkuozoxQbl8zxhLgi0QlpfGtZnPPscZUtG/F/cZD4w2uO+9MmkYjtxDeENBY6mxF71biShQ8DI11OIq5Eg3LgtHdTr6FfejbDsFSv4eXmY38Ggx6tF8OKCe6kexlhXQccR/EWMQwit87ysn/aoIVQ6GhWPVJa9dIZLXeiTSerH2UGTgd/LhWd5Yo3QOsR5JKmh37BfktaMvgcMxZ7ca3P33OtF2pRow47utn534tUEsNMmx+pwMSL3G4GgUCsslBfL8hJr0Gj3Nywxxan00+nBzrr8SP0rql4qDyw8xpCB4X59CvsJ9UWTLdfhzhiE03y6RY3p9GQ3PT1emFfos8/k7VfNV4gP3E0yibDQDVCAaqsSkstwpGZtMIC5czCGjB7Y0+uJ7mCt2S3QOSeY7d148LDXBh8p1rgwDQSPyK6lmJQj4GGvokLafJgbOJvQGHL450v3o1XYeYTt8fTFenZRS4uNJabEm1vQgD5Yn7moFEOB3NJy6gIl+VadKNXXF/IfRoZQGt0hU/hbwQ+68a8OC6qX48xeLAUkpqVt6S5m8asUrQmAs70QPJtRRJ/n/mxHhHzvrjHEpjvFySREuEwObIAka/QW/yKAqchYDip2p44XwKbk/H+IXdZ9fVaxA2/nOAm8v9HxpDoEA+ph7XUvc1obaXqJgOSQc6A==|920
