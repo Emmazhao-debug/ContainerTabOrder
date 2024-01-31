@@ -266,19 +266,7 @@
   },
   {
     "ModuleName": "PCPage/ContainerAndTabOrder",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-01-31T15:32:27.7534804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\インポートフォルダー1\\ContainerAndTabOrder.json",
-      "Pages\\インポートフォルダー1\\ContainerAndTabOrder.rd",
-      "Pages\\e3d1f35fe0f34cb599eb39e2ba11eed.json",
-      "Pages\\e3d1f35fe0f34cb599eb39e2ba11eed.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/インポートフォルダー1",
